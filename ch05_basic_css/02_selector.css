@@ -1,0 +1,51 @@
+/* 이게 주석 <!-- -->
+모든 요소 선택
+*/
+*{
+    font-weight: bold;
+    color: darkorange;
+}
+
+*{
+    color: plum;
+}
+
+/* 태그 선택자
+
+
+*/
+p{
+   color: olivedrab;
+}
+
+/* 클래스 선택자
+태그 선택자보다 우선순위가 높음.
+*/
+.blue {
+    color: lightblue;
+}
+/*
+클래스 선택자의 특징중 하나로 다른선택지에 이어 붙이는 것이 가능함.
+근데 이건 또 띄어쓰기를 하는게 아니라 .를 연달아 찍습니다.
+*/
+p.blue{
+    color: steelblue;
+}
+
+.blue.dark{
+    color: mediumblue;
+}
+
+p.blue.dark{
+    color: darkblue;
+}
+
+/* id 선택자
+class보다 우선순위가 높음
+id는 페이자 상에서 요소마다 고유해아함 (다른이름이어야 함)
+표기는 #
+*/
+
+#red {color: tomato;}
+
+/* 그룹 선택자 */
